@@ -1,0 +1,26 @@
+{
+  "name": "hirundo",
+  "version": "1.0.0",
+  "description": "Mongo project",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-typescript": "^2.13.6",
+    "mongodb": "^2.2.5"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
+    "babel-plugin-transform-es2015-parameters": "^6.11.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Marianna Vladimirova",
+  "license": "ISC"
+}

@@ -1,0 +1,4 @@
+#ignore js files
+src/**/*.js
+node_modules/
+typings/
