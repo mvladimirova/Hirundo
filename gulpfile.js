@@ -27,6 +27,10 @@ gulp.task('babel', ['tsc'], function () {
     })).pipe(gulp.dest('.'));
 });
 
+gulp.task('watch', function(){
+  gulp.watch('src/**/*.ts', ['tsc']);
+})
+
 gulp.task('nodemon', function () {
   nodemon({
     "execMap": {
@@ -44,6 +48,6 @@ gulp.task('nodemon', function () {
 })
 
 // Set up nodemon
-gulp.task('default', ['babel', 'nodemon'], function () {
+gulp.task('default', ['babel','watch'], function () {
 
 });
